@@ -1,0 +1,3 @@
+openai
+clarifai>=11.7.4
+psutil
