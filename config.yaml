@@ -1,0 +1,15 @@
+build_info:
+  python_version: '3.11'
+inference_compute_info:
+  accelerator_memory: 90Gi
+  accelerator_type:
+  - NVIDIA-*
+  cpu_limit: '3'
+  cpu_memory: 18Gi
+  num_accelerators: 1
+model:
+  app_id: local-runner-app
+  id: gpt-oss-120B-clarifai-sglang
+  model_type_id: multimodal-to-text
+  user_id: mogith-p-n
+num_threads: 128
